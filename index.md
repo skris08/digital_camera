@@ -49,3 +49,65 @@ The Initial tuning of the camera sensor goes through the following procedures,
 2. Tuning (an ISP) or adjusting an image signal processor to optimize the image quality. 
 
 ![isp](/digital_camera/docs/assets/images/isp.png)
+
+## Key perfomance indicators
+
+The ISP (Image Signal Processor) equips these specialized algorithms. These algorithms in the conversion process are known as the Key Performance Indicators (KPI). 
+Following are the KPIs for image processing that are equipped by the ISP to deliver a high-quality image,
+
+```markdown
+White Balance (WB)
+Denoise
+Sharpness / Texture detail
+Demosaicing
+Color Accuracy
+Lens Distortion
+Dynamic Range
+3A 
+  Auto Exposure
+  Auto Focus
+  Auto White Balance 
+```
+
+## White Balance (WB)
+
+White balance (WB) is the method of evacuating unrealistic color casts so that 
+objects which appear white in person are rendered white in your photo. 
+Proper camera white balance must take into consideration the
+"color temperature" of a light source, which refers to the relative warmth or coolness of white light.
+
+```markdown
+Test Charts used:
+Light booth and light meter
+18 % Gray Chart
+Macbeth Color checker
+Bayer AWB tuning
+```
+![white_balance](/digital_camera/docs/assets/images/white_balance.png)
+
+## Denoise
+
+Noise is a random variation of image density, visible as grain in film and pixel level variations in digital images.
+It appears from the photon nature of the light and the thermal energy of heat.
+
+```markdown
+Test Charts used:
+  Macbeth Color checker
+    ABF noise profiling 
+    Wavelet noise reduction (WNR) noise profiling
+```
+
+![denoise](/digital_camera/docs/assets/images/denoise.jpg)
+
+## Demosaicing
+
+A demosaicing algorithm is a digital image process used to recreate
+a full color image from the fragmented color output overlaid with a color filter array (CFA).
+Each color channel may permit an alternate frequency of light to pass –
+this is predetermined during the camera design.
+The algorithm used in the process: 
+the nearest-neighbor interpolation which essentially duplicates an adjoining pixel of a similar shading channel.
+the bilinear interpolation technique
+
+![demosaicing](/digital_camera/docs/assets/images/demosaicing.png)
+![demosaicing](/digital_camera/docs/assets/images/demosaicing_1.png)
