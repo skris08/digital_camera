@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## Digital Cameras
 
-You can use the [editor on GitHub](https://github.com/skris08/digital_camera/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Digital cameras are widely employed in numerous applications, such as 
+1. advanced still cameras,
+2. camcorders,
+3. camera telephones, and 
+4. video observations.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The camera which captures sensible images with adjusted parameters:
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+saturation,
+brightness,
+contrast,
 ```
+and so forth bringing about top notch picture is driving in the market.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Camera frameworks
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skris08/digital_camera/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```markdown
+The objective of a Camera framework is to capture a scene and imitate the caught scene in a digital format.
+The Camera Sensor incorporates lens, color filter array (Bayer) and a image sensor.
+The Bayer sensor filters the light by wavelength range, such that the separate filtered intensities include information about the color of light which are captured in the light bucket and then the ADC converts the electronic signals into digital signals recreating the RAW picture.
+The block diagram shows how a scene is seen on the camera sensor and how it is handled to get a raw image from the image sensor.
+```
+![camera-sensor](/digital_camera/docs/assets/images/camera_sensor.png)
